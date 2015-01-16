@@ -9,7 +9,9 @@
 <?php if ( kaira_theme_option( 'kra-favicon' ) ) :
     echo '<link rel="icon" href="' . esc_url( kaira_theme_option( 'kra-favicon' ) ) . '">';
 endif; ?>
-
+<?php 
+    echo 'This is a test';
+?>
 <?php wp_head(); ?>
 </head>
 
